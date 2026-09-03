@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: springJDBC
+  datasource:
+    url: jdbc:mysql://localhost:3306/student_db
+    username: root
+    password: kaushik
