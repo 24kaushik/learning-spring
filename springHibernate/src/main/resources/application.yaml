@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: springHibernate
+  datasource:
+    url: jdbc:mysql://localhost:3306/student_db
+    username: root
+    password: kaushik
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
