@@ -21,3 +21,7 @@ spring:
     properties:
       hibernate:
         format_sql: true
+
+jwt.secret: f//HIlwRu2A3N20rvZ/EGujbnryXyOgLT/QJPvixHIA=
+jwt.issuer: springSecurityAuth api
+jwt.expiry: 900
