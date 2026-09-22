@@ -1,0 +1,13 @@
+package com.example.springsecurityauth.dto.login;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+@AllArgsConstructor
+public class LoginReqDto {
+    private String username;
+    private String password;
+}

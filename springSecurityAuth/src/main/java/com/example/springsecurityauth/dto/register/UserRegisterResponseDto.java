@@ -1,4 +1,4 @@
-package com.example.springsecurityauth.dto;
+package com.example.springsecurityauth.dto.register;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

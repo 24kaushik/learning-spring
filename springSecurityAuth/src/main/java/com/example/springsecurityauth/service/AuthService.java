@@ -1,7 +1,7 @@
 package com.example.springsecurityauth.service;
 
-import com.example.springsecurityauth.dto.UserRegisterRequestDto;
-import com.example.springsecurityauth.dto.UserRegisterResponseDto;
+import com.example.springsecurityauth.dto.register.UserRegisterRequestDto;
+import com.example.springsecurityauth.dto.register.UserRegisterResponseDto;
 import com.example.springsecurityauth.entity.Role;
 import com.example.springsecurityauth.entity.User;
 import com.example.springsecurityauth.repository.RoleRepository;

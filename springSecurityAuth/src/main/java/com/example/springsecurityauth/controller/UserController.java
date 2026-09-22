@@ -1,9 +1,8 @@
 package com.example.springsecurityauth.controller;
 
-import com.example.springsecurityauth.dto.UserRegisterRequestDto;
-import com.example.springsecurityauth.dto.UserRegisterResponseDto;
+import com.example.springsecurityauth.dto.register.UserRegisterRequestDto;
+import com.example.springsecurityauth.dto.register.UserRegisterResponseDto;
 import com.example.springsecurityauth.service.AuthService;
-import lombok.Getter;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.web.csrf.CsrfToken;
