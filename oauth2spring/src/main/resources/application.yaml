@@ -1,3 +1,28 @@
 spring:
   application:
     name: oauth2spring
+
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: ${GOOGLE_CLIENT_ID}
+            client-secret: ${GOOGLE_CLIENT_SECRET}
+            scope:
+              - openid
+              - profile
+              - email
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/student_db
+    username: root
+    password: kaushik
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
